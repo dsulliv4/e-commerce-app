@@ -36,6 +36,13 @@ gem "jbuilder"
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
 
+gem 'bulma-rails', '~> 0.6.1'
+gem 'simple_form', '~> 5.1'
+gem 'devise', '~> 4.4'
+gem 'gravatar_image_tag', '~>1.2'
+gem 'carrierwave'
+gem 'mini_magick'
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
@@ -69,4 +76,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+  gem 'better_errors', '~> 2.4'
+  gem 'guard', '~> 2.14', '>=2.14.1'
+
 end
